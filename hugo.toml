@@ -1,4 +1,23 @@
 baseURL = 'https://applepiecodes.github.io/blog/'
 languageCode = 'en-us'
-title = "Alula's Blog"
 theme = 'terminal'
+pagination.pagerSize = 5
+
+[languages]
+  [languages.en]
+    languageName = "English"
+    title = "Alula's Blog"
+
+    [languages.en.params]
+      subtitle = "My Blog. I make posts about things. Expect nerd stuff, programming stuff, nerdcore music, vocaloid and more you never expected."
+      owner = "Liam Greenway"
+      keywords = "technology"
+      menuMore = "Show more"
+      readMore = "Read more"
+      readOtherPosts = "Read other posts"
+      newerPosts = "Newer posts"
+      olderPosts = "Older posts"
+      missingContentMessage = "Page not found..."
+      missingBackButtonLabel = "Back to home page"
+      minuteReadingTime = "min read"
+      words = "words"

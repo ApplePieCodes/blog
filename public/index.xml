@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Alula&#39;s Blog</title>
+    <link>http://localhost:1313/blog/</link>
+    <description>Recent content on Alula&#39;s Blog</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 10 Dec 2024 07:25:57 -0500</lastBuildDate><atom:link href="http://localhost:1313/blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>My Experience With Operating System Development</title>
+      <link>http://localhost:1313/blog/posts/2024/my-experience-with-osdev/</link>
+      <pubDate>Tue, 10 Dec 2024 07:25:57 -0500</pubDate>
+      
+      <guid>http://localhost:1313/blog/posts/2024/my-experience-with-osdev/</guid>
+      <description>&lt;h1 id=&#34;my-short-lived-experience-with-operating-system-development&#34;&gt;My (Short Lived) Experience With Operating System Development&lt;/h1&gt;
+&lt;h3 id=&#34;preamble&#34;&gt;Preamble&lt;/h3&gt;
+&lt;p&gt;A while ago (April-September 2024), I decided to try OSDev. I first started working in &lt;a href=&#34;https://dotnet.microsoft.com/en-us/languages/csharp/&#34;&gt;C#&lt;/a&gt; with the library/framework &lt;a href=&#34;https://cosmosos.github.io/&#34;&gt;Cosmos&lt;/a&gt;, and I actually got pretty far (as in a terminal and a purple screen). Eventually, I realized that C# wouldn&amp;rsquo;t work for several reasons. I could actually make a &lt;a href=&#34;https://en.wikipedia.org/wiki/Singularity_%28operating_system%29/&#34;&gt;full os in C#&lt;/a&gt;, but the toolchain was too complicated, and I decided to use C (which has more preexisting tools and support) and got to work on lithium (my most recent attempt). Working on lithium helped me a lot. It forced me to learn C and how CPUs work on a fundamental level. I used this to work on my own CPU design later. During this short-lived phase, I used The &lt;a href=&#34;https://wiki.osdev.org/Expanded_Main_Page&#34;&gt;Operating System Development Wiki&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/watch?v=MwPjvJ9ulSc&amp;amp;list=PLm3B56ql_akNcvH8vvJRYOc7TbYhRs19M&#34;&gt;Daedalus Community&amp;rsquo;s Making an OS(x86)&lt;/a&gt; series, and &lt;a href=&#34;https://www.youtube.com/watch?v=9t-SPC7Tczc&amp;amp;list=PLFjM7v6KGMpiH2G-kT781ByCNC_0pKpPN&#34;&gt;nanobyte&amp;rsquo;s Building an OS&lt;/a&gt;. I highly reccommend dipping your toes into OSDev. Even though it went nowhere, I learned a lot of other skills that I would&amp;rsquo;ve never bothered to look into.&lt;/p&gt;</description>
+      <content>&lt;h1 id=&#34;my-short-lived-experience-with-operating-system-development&#34;&gt;My (Short Lived) Experience With Operating System Development&lt;/h1&gt;
+&lt;h3 id=&#34;preamble&#34;&gt;Preamble&lt;/h3&gt;
+&lt;p&gt;A while ago (April-September 2024), I decided to try OSDev. I first started working in &lt;a href=&#34;https://dotnet.microsoft.com/en-us/languages/csharp/&#34;&gt;C#&lt;/a&gt; with the library/framework &lt;a href=&#34;https://cosmosos.github.io/&#34;&gt;Cosmos&lt;/a&gt;, and I actually got pretty far (as in a terminal and a purple screen). Eventually, I realized that C# wouldn&amp;rsquo;t work for several reasons. I could actually make a &lt;a href=&#34;https://en.wikipedia.org/wiki/Singularity_%28operating_system%29/&#34;&gt;full os in C#&lt;/a&gt;, but the toolchain was too complicated, and I decided to use C (which has more preexisting tools and support) and got to work on lithium (my most recent attempt). Working on lithium helped me a lot. It forced me to learn C and how CPUs work on a fundamental level. I used this to work on my own CPU design later. During this short-lived phase, I used The &lt;a href=&#34;https://wiki.osdev.org/Expanded_Main_Page&#34;&gt;Operating System Development Wiki&lt;/a&gt;, &lt;a href=&#34;https://www.youtube.com/watch?v=MwPjvJ9ulSc&amp;amp;list=PLm3B56ql_akNcvH8vvJRYOc7TbYhRs19M&#34;&gt;Daedalus Community&amp;rsquo;s Making an OS(x86)&lt;/a&gt; series, and &lt;a href=&#34;https://www.youtube.com/watch?v=9t-SPC7Tczc&amp;amp;list=PLFjM7v6KGMpiH2G-kT781ByCNC_0pKpPN&#34;&gt;nanobyte&amp;rsquo;s Building an OS&lt;/a&gt;. I highly reccommend dipping your toes into OSDev. Even though it went nowhere, I learned a lot of other skills that I would&amp;rsquo;ve never bothered to look into.&lt;/p&gt;
+&lt;h3 id=&#34;the-c-arc&#34;&gt;The C# Arc&lt;/h3&gt;
+&lt;p&gt;I started my OSDev journey with the &lt;a href=&#34;https://cosmosos.github.io/&#34;&gt;Cosmos&lt;/a&gt; library/framework. I became acustommed to the prexisting API for doing things an OS would do. There were functions for printing to, changing the color of, and clearing the screen. There was a system to play audio, a system to display a GUI, and a system for mounting filesystems. I named my OS XenOS (my youtube channel and github name at the time was Xeno).&lt;/p&gt;
+</content>
+    </item>
+    
+  </channel>
+</rss>
